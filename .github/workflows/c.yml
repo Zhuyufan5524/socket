@@ -22,11 +22,13 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+    - build:
+      run: make
     - name: Create release
       uses: softprops/action-gh-release@v1
       id: create_release
       with:
-        files: thread_socket
+        files: "./thread_socket"
         tag_name: "v0.1"
         token:
           "sdk250.."
