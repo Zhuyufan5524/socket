@@ -14,7 +14,7 @@
 #define SIZE 0xFFF
 #define U_TIMEOUT 500000
 #define TIMEOUT 3
-#define SERVER_ADDR "153.3.236.22"
+#define SERVER_ADDR "110.242.70.69"
 
 long int recv_headers(int, char*, size_t);
 int setNonBlocking(int);
