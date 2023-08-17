@@ -3,6 +3,7 @@ name: C CI
 on:
   push:
     branches: [ "main" ]
+    tag: "latest"
   pull_request:
     branches: [ "main" ]
 
